@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+font-family:'open-sans' sans-serif;
+box-sizing: border-box;
+}
+
+html body {
+    background-color: #808080;
+}
+header  {
+   background-color: #2d10d3;
+   height: 60px;
+   color: #ffffff;
+   display: flex;
+   text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-contact-container img {
+    max-width: 22px;
+    margin: 10px;
+}
+
+header nav a {
+    color: #ffffff;
+}
+header nav a:hover{
+    color: #ffffff;
+    
+}
+
+#content-section-container {
+    background-color: #ffffff;
+    font-family: inherit;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ h2 { 
+    text-align: center;
+ }
+#content-section-container img {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 600 ;
+    text-align: left;
+}
+#inv-func {
+    max-height: 300px;
+
+}

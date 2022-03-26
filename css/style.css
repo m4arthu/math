@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 * {
-font-family:'open-sans' sans-serif;
 box-sizing: border-box;
 }
 
@@ -52,27 +50,27 @@ header nav a:hover{
     background-color: #ffffff;
     font-family: inherit;
     font-size: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
  h2 { 
     text-align: center;
+    margin-bottom: 20px;
  }
-#content-section-container img {
-    width: 100%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    align-items: center;
-}
 
 p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600 ;
     text-align: left;
 }
-#inv-func {
-    max-height: 300px;
 
+.img-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
+
+.img-content img {
+    max-width: 100%;
+}
+
+

@@ -7,43 +7,27 @@ html body {
     background-color: #808080;
 }
 header  {
-   background-color: #2d10d3;
+   background-color: #096336b8;
    height: 60px;
    color: #ffffff;
-   display: flex;
-   text-align: center;
+}
+
+#img-nav {
+    max-width: 200px;
 }
 
 nav {
     display: flex;
     align-items: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     justify-content: space-between;
 }
 
  nav h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
-}
-nav a {
-    font-size: 10px;
-    margin-right: 30px;
-}
-.nav-contact-container {
-    display: flex;
-    align-items: center;
-}
-
-.nav-contact-container img {
-    max-width: 22px;
-    margin: 10px;
-}
-
-header nav a {
-    color: #ffffff;
-}
-header nav a:hover{
-    color: #ffffff;
-    
 }
 
 #content-section-container {
@@ -51,14 +35,34 @@ header nav a:hover{
     font-family: inherit;
     font-size: 100%;
 }
- h2 { 
+
+.calc-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.calc-button button {
+    margin: 0;
+    background-color: #096336b8;
+    font-weight: 500;
+    border: 1px solid #000000;
+}
+
+.calc-button a {
+    color: #ffffff;
+}
+
+h2 { 
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 700;
  }
 
 p {
     font-size: 20px;
-    font-weight: 600 ;
+    font-weight: 500 ;
     text-align: left;
 }
 

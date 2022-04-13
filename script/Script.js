@@ -1,5 +1,6 @@
 function Recarregar() {
-    location.reload()
+    var res = document.getElementById('res')
+    res.innerHTML =''
 }
 
 

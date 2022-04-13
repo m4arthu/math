@@ -34,6 +34,10 @@ header h1 {
    padding-top:20px ;
 }
 
+.calcular input {
+    margin-right: 20px;
+}
+
 .calcular img {
     width: 100%;
 }
@@ -50,3 +54,4 @@ footer {
      color: #ffffff;
      text-align: center;
 }
+

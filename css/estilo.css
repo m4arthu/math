@@ -1,6 +1,6 @@
 
 html body {
-    background-color: #096336b8;
+    background-image: url(../imgs/Matemática-background.svg);
 }
 
 header {
@@ -14,6 +14,9 @@ header h1 {
 }
 
 .form-container {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
     background-color: #fff;
     border-radius: 20px;
     padding: 15px;
@@ -46,7 +49,6 @@ header h1 {
 
 .calcular button {
     margin:  0 ;
-    background-color: #096336b8;
     border: 1px solid #000000;
     
 }

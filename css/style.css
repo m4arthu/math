@@ -5,7 +5,9 @@
 }
 
 
-
+.menu-color {
+    color: var(--cor-Secundaria);
+}
 
 .dp-menu ul {
     display: flex;

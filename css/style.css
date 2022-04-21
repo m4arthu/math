@@ -22,7 +22,7 @@ body {
 }
 
 .dp-menu {
-    padding: 0 36px;
+    padding: 0 28px;
     background-image: url(../imgs/Matemática-background.svg);
 }
 
@@ -34,7 +34,7 @@ body {
 
 
 .dp-menu ul li img {
-    width: 71px;
+    width: 50px;
 }
 .dp-menu ul li a {
     color: var(--cor-Secundaria);

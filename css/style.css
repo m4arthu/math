@@ -4,6 +4,9 @@
     --cor-terciaria: #2c312e
 }
 
+body {
+    background-color: var(--cor-terciaria);
+}
 
 .menu-color {
     color: var(--cor-Secundaria);
@@ -15,9 +18,11 @@
     list-style: none;
     padding: 0;
     justify-content: space-between;
+    margin: 0;
 }
 
 .dp-menu {
+    padding: 0 36px;
     background-image: url(../imgs/Matemática-background.svg);
 }
 
@@ -27,6 +32,10 @@
     background-color: black;
 }
 
+
+.dp-menu ul li img {
+    width: 71px;
+}
 .dp-menu ul li a {
     color: var(--cor-Secundaria);
     text-decoration: none;
@@ -80,7 +89,9 @@
     color: var(--cor-Secundaria);
 }
 h1 {
+    padding-left: 10px;
     color: var(--cor-Secundaria);
+    margin: 0;
 }
 h2 {
     text-align: center;

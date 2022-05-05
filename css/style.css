@@ -45,9 +45,7 @@ body {
     height: 50px;
     background-color: var(--cor-terciaria);
 }
-#img-menu {
-    display: none;
-}
+
 section {
     background-color: var(--cor-Secundaria);
     font-family: inherit;
@@ -79,9 +77,21 @@ h2 {
     margin-bottom: 20px;
     font-weight: 700;
 }
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
 
 p {
     margin: 0 20px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 500;
     text-align: left;
@@ -95,7 +105,9 @@ p {
 }
 
 .img-content img {
-    max-width: 50%;
+    margin-right: 20px ;
+    max-width:  400px;
+    max-height: 400px;
 }
 
 @media screen and (max-width: 575px) {

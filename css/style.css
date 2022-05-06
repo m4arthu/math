@@ -116,6 +116,11 @@ p {
     max-height: 400px;
 }
 
+#dw-auto-retrato {
+    width: 400px;
+    height: 350px;
+}
+
 @media screen and (max-width: 575px) {
     p {
         font-size: 15px;
@@ -181,5 +186,24 @@ p {
     .dp-menu ul ul li a {
         display: block;
     }
+   .img-content {
+    display: flex;
+    flex-direction: column;
+   }
 
+   .img-content img {
+       margin-bottom: 10px;
+   }
+}
+
+
+
+@media screen and (max-width: 382px) {
+    .img-content img {
+        width: 200px;
+    }
+
+    #dw-auto-retrato {
+        width: 200px;
+    }
 }
